@@ -1,0 +1,96 @@
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 767px) {
+	input[type="text"],input[type="submit"],input[type="password"],select{-webkit-appearance:none;-moz-appearance:none;appearance:none; border-radius: 0}
+
+    .inner-wrap{padding: 0 15px;}
+    .main-logo{width: 200px;}
+    .lead-text{font-size: 18px; line-height: 25px; padding-top: 30px;}
+    .contact-info{bottom: 40px; padding: 0 15px;}
+    .contact-info a{font-size: 14px;}
+    .copyright{padding-top: 15px;}
+    .rotate-text-right, .rotate-text-left{display: none;}
+    .lead-text dfn{font-size: 19px;}
+
+
+
+
+
+
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+input[type="text"],input[type="submit"],input[type="password"],select{-webkit-appearance:none;-moz-appearance:none;appearance:none; border-radius: 0}
+
+/*.range-item{ float: left; width:48%; margin-bottom: 30px}
+.power-thumb{ width: 47%; float: left;}
+.power-thumb-coll{  float: right;width: 49%; top: -1px}	
+.donate-thumb{ width: 25%}
+.footer-left {float: left;width: 48.553%}
+.social-icon {float: left;width: 178px;margin:0 0 0 30px;}*/
+
+
+
+}
+
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	input[type="text"],input[type="submit"],input[type="password"],select{-webkit-appearance:none;-moz-appearance:none;appearance:none; border-radius: 0}
+
+/*===========Beginning Home Page ===========*/
+
+.lead-text p{padding: 0 60px;}
+
+
+
+
+
+
+
+}
+
+
+/*		Tablet Layout: 1024px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+	input[type="text"],input[type="submit"],input[type="password"],select{-webkit-appearance:none;-moz-appearance:none;appearance:none; border-radius: 0}
+
+
+
+
+	
+}
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2)
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
